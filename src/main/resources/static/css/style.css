@@ -1,0 +1,115 @@
+body {
+    background-image: url(C:/Users/gamer/javaspringlab5tasks/src/main/resources/static/css/images/qwerty.jpg);
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #05386B;
+}
+
+
+form, table {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, textarea, select, button {
+    width: 90%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+button {
+    background-color: #05386B;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.5ms;
+    opacity: 0.8;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table th {
+    background-color: #05386B;
+    color: white;
+    text-align: center;
+}
+
+a {
+    margin: 10px;
+    text-decoration: none;
+    color: #05386B;
+    transition: 0.5s;
+}
+
+a:hover {
+    color: gray;
+
+}
+
+.home_welcome{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.welcome_button{
+    width: 350px;
+    height: 100px;
+    background-color: #05386B;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+    text-decoration: none;
+    opacity: 0.8;
+    margin: 50px;
+}
+.welcome_button:hover{
+    opacity: 1;
+}
+.welcome_a{
+    width: 350px;
+    height: 100px;
+    text-decoration: none;
+    color: #EDF5E1;
+}
+.container {
+    display: block;
+    justify-content: space-between;
+}

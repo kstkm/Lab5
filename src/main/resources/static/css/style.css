@@ -1,5 +1,5 @@
 body {
-    background-image: url(C:/Users/gamer/javaspringlab5tasks/src/main/resources/static/css/images/qwerty.jpg);
+    background-image: url(/static/css/images/qwerty.jpg);
     background-repeat: no-repeat;
     font-family: Arial, sans-serif;
     margin: 0;
